@@ -1,0 +1,5 @@
+baseurl = "https://dl.dropboxusercontent.com/u/16459162/babelfrog/public"
+languageCode = "en-us"
+title = "Babelfrog"
+theme = "babelfrog"
+
