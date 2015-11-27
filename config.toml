@@ -1,4 +1,4 @@
-baseurl = "https://dl.dropboxusercontent.com/u/16459162/babelfrog/public"
+baseurl = "https://pierrelgrd.github.io/babelfrog2/"
 languageCode = "en-us"
 title = "Babelfrog"
 theme = "babelfrog"
