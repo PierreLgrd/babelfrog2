@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#"><!--<![endif]-->
+
+    <head>
+                <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="author" content="">
+	
+        <meta property="og:site_name" content="Babelfrog">
+        <meta property="og:title" content="Babelfrog">
+        <meta property="og:url" content="http://localhost:1313/front-page/">
+        <meta property="og:description" content="">
+    
+        <meta property="og:type" content="article" />
+        <meta property="og:article:author" content="" />
+        <meta property="og:article:published_time" content="2015-11-27T10:46:25-05:00" />
+    
+        <meta name="generator" content="Hugo 0.14" />
+        <title>Website translation that doesn’t suck. &middot; Babelfrog </title>
+        <link rel="canonical" href="http://localhost:1313/" />
+        <link rel="stylesheet" type='text/css' href="http://localhost:1313/css/main.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    </head>
+<body>
+<!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chrome/‎">install Google Chrome</a> to experience this site.</p><![endif]-->
+
+    <header id="site-header">
+    	<a href="https://github.com/dergachev/babelfrog"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+    	<h1><a href="/"><img src="/img/logo.png" alt="Babelfrog" width="300" /></a></h1>
+			<nav>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/help/">Help</a></li>
+					<li><a href="/faq/">FAQ</a></li>
+     				<li><a href="https://babelfrog.uservoice.com/">Forum</a></li>
+				</ul>
+			</nav>
+    </header>
+<main class="content" role="main">
+	<div class="container">
+		<article class="page">
+	<header class="post-header">
+        <h2 class="p-post-title">Website translation that doesn’t suck.</h3>
+    </header>
+
+    <section class="post-content">
+        <script type="text/javascript">
+$(document).ready(function() {
+  $('.cr-btn').click(function (e) {
+    if(!$(this).hasClass('disabled')) {
+      e.preventDefault();
+      if(navigator.userAgent.toLowerCase().indexOf('chrome') > -1) {
+        mixpanel.track("Start install");
+        chrome.webstore.install("https://chrome.google.com/webstore/detail/jnhmkblbgggfgeebimebebnkhgnagnpj", function() {
+          // success callback
+          // $(".cr-btn").addClass("disabled").text('BabelFrog is already installed');
+
+          var mixpanelTrack = new $.Deferred();
+          var gaTrack = new $.Deferred();
+          $.when(mixpanelTrack, gaTrack).done(function() {
+            window.location.href = "/help?install=inline";
+          });
+
+          _gaq.push(['_trackEvent', 'Engagement', 'Install', 'Inline']);
+          _gaq.push(function() {
+            gaTrack.resolve();
+          });
+
+          mixpanel.track("Install successful", undefined, function() {
+            mixpanelTrack.resolve();
+          });
+        });
+      }
+      else {
+        alert("Sorry, your browser does not support installing the Chrome extension.");
+      }
+    }
+  });
+});
+</script>
+
+<p><strong>BabelFrog</strong> is a light-weight Chrome extension that helps you read foreign websites by translating the text you select, not the whole page.</p>
+
+<div class="babelfrog-demo"><img src="/img/babelfrog-demo-4.gif"/></div>
+
+<p>Start reading websites in the original language, instead of waiting for a butchered machine translation.</p>
+
+<div class="button-wrapper">
+<a class="button cr-btn" href="https://chrome.google.com/webstore/detail/babelfrog/jnhmkblbgggfgeebimebebnkhgnagnpj">
+Add BabelFrog to Chrome
+</a>
+</div>
+
+<p>Unlike similar extensions, BabelFrog isn&rsquo;t bloated with features. It won&rsquo;t slow down Chrome, or ask you for permission to steal data from every website you visit.</p>
+
+    </section>
+
+    <hr>
+
+    <footer class="post-footer">
+        <section class="f-1">
+            
+            
+        </section>
+            
+        </section>
+                        
+    </footer>
+</article>
+	</div>
+</main>
+    <footer id="site-footer">
+        <div class="container">
+            <img class="avatar" src="http://www.gravatar.com/avatar/0bceeea1c7179c102b50812a1d2c74c3.png" alt="Me" />
+            <p>BabelFrog is a side-project of <a href="https://github.com/dergachev/">Alex Dergachev</a> who's currently using it to improve his French while living in Montreal, Quebec and running <a href="http://evolvingweb.ca">Evolving Web</a>, a Drupal consultancy.</p>
+            <p><a href="http://github.com/dergachev">github</a> | <a href="http://twitter.com/dergachev">twitter</a> | <a href="https://www.linkedin.com/in/alexdergachev">linked.in</a></p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="http://localhost:1313/js/fittext.js"></script>
+    <script type="text/javascript">
+      $(".heading").fitText();
+    </script>
+
+
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>

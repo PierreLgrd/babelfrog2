@@ -1,0 +1,9 @@
+name = "BabelFrog"
+license = "MIT"
+description = "Themes for BabelFrog extension website"
+tags = ["blog", "minimal", "ghost", "white"]
+features = ["blog", "disqus", "google analytics", "pagination", "rss", "sharing options"]
+min_version = 0.14
+
+[author]
+  name = "Pierre Legrand"
